@@ -12,7 +12,7 @@ TIntersection = df[df['Road geometry'] == 'T intersection                      '
 CrossIntersection = df[df['Road geometry'] == 'Cross intersection                     ']
 YIntersection = df[df['Road geometry'] == 'Y intersection                      ']
 
-
+#print to csv file
 MultipleIntersection.to_csv("ALLROADS_CRASH_MINOR_MULTIPLE_INTERSECTION.csv", index=False)
 TIntersection.to_csv("ALLROADS_CRASH_MINOR_T_INTERSECTION.csv", index=False)
 CrossIntersection.to_csv("ALLROADS_CRASH_MINOR_Cross_INTERSECTION.csv", index=False)
